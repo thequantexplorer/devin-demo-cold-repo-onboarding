@@ -1,0 +1,23 @@
+{
+  "name": "acme-ledger-service",
+  "version": "4.1.0",
+  "private": true,
+  "description": "Double-entry ledger for Acme wallets: accounts, postings, idempotent transfers",
+  "packageManager": "pnpm@9.15.0",
+  "engines": { "node": ">=20 <23" },
+  "type": "module",
+  "scripts": {
+    "db:migrate": "node scripts/migrate.js",
+    "db:seed": "node scripts/seed.js",
+    "dev": "node src/server.js",
+    "test": "node --test --test-concurrency=1"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "ioredis": "^5.4.2",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "supertest": "^7.0.0"
+  }
+}
