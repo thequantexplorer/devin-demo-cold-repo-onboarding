@@ -1,6 +1,6 @@
 # Devin demo: Onboarding a cold repo: blueprint plus memory
 
-**What it shows:** "Onboarding an engineer in 10 minutes." The repo fails cold and its README says almost nothing. Devin works out the services and env it needs, writes a repo environment blueprint and Knowledge notes, and proves a fresh session gets to green tests with one command.
+**What it shows:** The tests fail on a fresh clone and the README is nearly empty. Devin works out the services and env vars the repo needs, writes an environment blueprint and Knowledge notes, and shows a fresh session reaching green tests with one command.
 
 **Needs:** GitHub. Devin will ask you to approve the environment (blueprint) and org Knowledge changes.
 
